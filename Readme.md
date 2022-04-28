@@ -26,3 +26,11 @@ Here's what it turns out:
 The utility creates an .xml file, which should be opened in the Deroute utility (File -> Add entities...)
 
 https://github.com/emu-russia/psxdev/releases
+
+## Color RAM Schematic
+
+Just in case, a transistor circuit of the Color RAM:
+
+![cram_tran](cram_tran.jpg)
+
+From left to right Color Buffer bits: CC0 (0), CC1 (1), CC2 (2), CC3 (3), LL0 (4), LL1 (5)
