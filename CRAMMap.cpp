@@ -24,12 +24,12 @@ void EmitCellText(std::string& text, size_t bit_num, size_t row, size_t col, siz
         CellColor = "Tomato";
 
         size_t cram_addr2 = (col << 2) | (1 << 4);
-        sprintf_s(CellLabel, sizeof(CellLabel), "%02X/%02X-%zd\nrow: 0/4\ncol: %zd", (uint8_t)cram_addr, (uint8_t)cram_addr2, bit_num, col);
+        sprintf_s(CellLabel, sizeof(CellLabel), "%02X/%02X-%zd\nrow: 0/4\ncol: %zd\nBG/OBJ", (uint8_t)cram_addr, (uint8_t)cram_addr2, bit_num, col);
     }
     else
     {
         CellColor = PAL4 ? "GreenYellow" : "Teal";
-        sprintf_s(CellLabel, sizeof(CellLabel), "%02X-%zd\nrow: %zd\ncol: %zd", (uint8_t)cram_addr, bit_num, row, col);
+        sprintf_s(CellLabel, sizeof(CellLabel), "%02X-%zd\nrow: %zd\ncol: %zd\n%s", (uint8_t)cram_addr, bit_num, row, col, PAL4 ? "OBJ" : "BG");
     }
 
     sprintf_s(cell, sizeof(cell), cellText, CellLabel, CellColor,
