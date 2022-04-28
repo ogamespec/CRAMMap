@@ -19,6 +19,8 @@ Here's what it turns out:
 
 ![crammap.png](crammap.png)
 
+(open the picture in a new tab)
+
 ## How to view the map
 
 The utility creates an .xml file, which should be opened in the Deroute utility (File -> Add entities...)
