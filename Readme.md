@@ -12,7 +12,7 @@ Color differentiation of memory cells:
 - Teal: Cells for the color of the background (CRAM Address msb = 0)
 
 Inside each cell is a caption, of the form `AA-B`:
-- AA: Cell address 00-FF
+- AA: Cell address 00-1F
 - B: The bit number of the corresponding byte.
 
 Here's what it turns out:
