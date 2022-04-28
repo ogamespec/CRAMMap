@@ -34,3 +34,5 @@ https://github.com/emu-russia/psxdev/releases
 ![cram_tran](cram_tran.jpg)
 
 Слева направо разряды Color Buffer: CC0 (0), CC1 (1), CC2 (2), CC3 (3), LL0 (4), LL1 (5)
+
+Устройство Color RAM не отличается между NTSC/PAL PPU.

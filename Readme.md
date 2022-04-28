@@ -34,3 +34,5 @@ Just in case, a transistor circuit of the Color RAM:
 ![cram_tran](cram_tran.jpg)
 
 From left to right Color Buffer bits: CC0 (0), CC1 (1), CC2 (2), CC3 (3), LL0 (4), LL1 (5)
+
+Color RAM unit does not differ between NTSC/PAL PPUs.
